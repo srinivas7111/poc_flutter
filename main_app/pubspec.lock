@@ -133,11 +133,9 @@ packages:
   pan_validation:
     dependency: "direct main"
     description:
-      path: "."
-      ref: main
-      resolved-ref: "95bef50eb972793a24933761cc9a8bbf3715b2c7"
-      url: "https://github.com/srinivas7111/pan_micro_app.git"
-    source: git
+      path: "../pan_validation"
+      relative: true
+    source: path
     version: "0.0.1"
   path:
     dependency: transitive
